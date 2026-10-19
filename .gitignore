@@ -1,0 +1,23 @@
+# Rahasia dan konfigurasi lokal
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Artefak sistem dan editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Hasil kerja sementara dan cache
+tmp/
+temp/
+.cache/
+
+# Output gambar chapter disimpan lokal secara default.
+# Hapus aturan ini secara sadar jika proyek memilih versioning aset final.
+chapters/*/output/*
+!chapters/*/output/.gitkeep
+
